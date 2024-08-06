@@ -1,8 +1,16 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const collapseBtn = document.getElementById('collapse-btn');
-    const nav = document.querySelector('header nav ul');
-    
-    collapseBtn.addEventListener('click', function () {
-        nav.classList.toggle('show');
+    const dropdownBtn = document.querySelector('.dropbtn');
+    const dropdownContent = document.querySelector('.dropdown-content');
+
+    dropdownBtn.addEventListener('click', function () {
+        dropdownContent.classList.toggle('show');
+    });
+
+    window.addEventListener('click', function (e) {
+        if (!e.target.matches('.dropbtn')) {
+            if (dropdownContent.classList.contains('show')) {
+                dropdownContent.classList.remove('show');
+            }
+        }
     });
 });
