@@ -129,12 +129,12 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: auto; /* Ensure footer is pushed to the bottom */
+    margin-top: auto;
 }
 
 footer p {
     margin: 5px 0;
-    font-size: 18px; /* Adjust font size as needed */
+    font-size: 18px;
 }
 
 footer .social-icons {
