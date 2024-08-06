@@ -3,26 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Bio</title>
+    <title>Welcome</title>
     <link rel="stylesheet" href="styles.css">
-    <script defer src="script.js"></script>
 </head>
 <body>
     <header>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
+                <li><a href="bio.html">Bio</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Pages</a>
+                    <div class="dropdown-content">
+                        <a href="projects.html">Projects</a>
+                    </div>
+                </li>
                 <li><a href="articles.html">Articles</a></li>
-                <li><a href="projects.html">Projects</a></li>
             </ul>
         </nav>
     </header>
-    <div class="main-content">
-        <h1>Daniel Gomez</h1>
-        <h2>Software Developer, Small Business Development and CRE Enthusiast</h2>
-        <p>Hi there! I'm Daniel, a student based in the NYC area. I'm currently pursuing an undergrad bachelor's in Science in Business Analytics and Computer Information Systems with a minor in Political Science at Manhattan College.</p>
-        <p>My passion lies in leveraging technology to solve complex problems and drive innovation. With a diverse background across various industries, I'm always eager to take on new challenges and contribute to meaningful projects.</p>
-        <p>This website is a platform to showcase my coding skills and share my insights on the latest in technology/CRE and small business development through my blog. Whether it's discussing new trends, sharing coding tips, or delving into data science and machine learning, I aim to provide valuable content that reflects my expertise and enthusiasm for the tech world.</p>
+    <div class="hero">
+        <div class="hero-text">
+            <h1>Grow your skills, define your future</h1>
+            <p>Hi there! I'm Daniel, a student based in the NYC area. I'm currently pursuing an undergrad bachelor's in Science in Business Analytics and Computer Information Systems with a minor in Political Science at Manhattan College.</p>
+            <a href="bio.html" class="btn">Explore Bio</a>
+            <a href="resume.html" class="btn">Learn More</a>
+        </div>
+        <div class="hero-image">
+            <img src="your-image-url.jpg" alt="Hero Image">
+        </div>
     </div>
     <footer>
         <a href="https://www.linkedin.com" target="_blank"><img src="linkedin-icon.png" alt="LinkedIn"></a>
