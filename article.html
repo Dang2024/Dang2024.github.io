@@ -3,18 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+### Updated `articles.html`
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Articles</title>
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
 </head>
 <body>
     <header>
-        <button class="collapse-btn" id="collapse-btn">&#9776;</button>
         <nav>
+            <div class="logo">Welcome</div>
             <ul>
                 <li><a href="index.html">Home</a></li>
+                <li><a href="bio.html">Bio</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Pages</a>
+                    <div class="dropdown-content">
+                        <a href="projects.html">Projects</a>
+                    </div>
+                </li>
                 <li><a href="articles.html">Articles</a></li>
-                <li><a href="projects.html">Projects</a></li>
             </ul>
         </nav>
     </header>
@@ -23,9 +37,12 @@
         <p>Coming soon! Here you will find links to articles I have written.</p>
     </div>
     <footer>
-        <a href="https://www.linkedin.com" target="_blank"><img src="linkedin-icon.png" alt="LinkedIn"></a>
-        <a href="https://github.com" target="_blank"><img src="github-icon.png" alt="GitHub"></a>
-        <a href="#" target="_blank"><img src="question-icon.png" alt="Question"></a>
+        <p>Follow My Socials</p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com" target="_blank"><img src="images/Linkedin-icon.png" alt="LinkedIn"></a>
+            <a href="https://github.com" target="_blank"><img src="images/Github-icon.png" alt="GitHub"></a>
+            <a href="#" target="_blank"><img src="images/question-icon.png" alt="Question"></a>
+        </div>
         <p>&copy; 2024 Daniel Gomez. All rights reserved.</p>
     </footer>
 </body>
