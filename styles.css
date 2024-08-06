@@ -124,12 +124,12 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 20px;
-    position: relative;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: auto; /* Ensure footer is pushed to the bottom */
 }
 
 footer a {
