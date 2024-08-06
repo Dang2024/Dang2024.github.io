@@ -108,6 +108,7 @@ header .dropdown:hover .dropdown-content {
 
 .hero-text {
     max-width: 50%;
+    flex: 1;
 }
 
 .hero h1 {
@@ -134,8 +135,16 @@ header .dropdown:hover .dropdown-content {
     background-color: #0056b3;
 }
 
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .hero-image img {
     max-width: 100%;
+    height: auto;
     border-radius: 10px;
 }
 
