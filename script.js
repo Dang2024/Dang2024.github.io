@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
     const collapseBtn = document.getElementById('collapse-btn');
-    const sidebar = document.getElementById('sidebar');
+    const nav = document.querySelector('header nav ul');
     
     collapseBtn.addEventListener('click', function () {
-        sidebar.classList.toggle('collapsed');
+        nav.classList.toggle('show');
     });
 });
