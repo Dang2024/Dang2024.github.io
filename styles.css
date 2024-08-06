@@ -143,7 +143,7 @@ header .dropdown:hover .dropdown-content {
 }
 
 .hero-image img {
-    max-width: 100%;
+    width: 100%; /* Adjusted width to make the image larger */
     height: auto;
     border-radius: 10px;
 }
