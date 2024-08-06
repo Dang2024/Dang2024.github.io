@@ -29,6 +29,10 @@ header nav ul {
     padding: 0;
 }
 
+header nav ul.nav-links {
+    margin-left: auto;
+}
+
 header nav ul li {
     display: inline;
 }
@@ -38,6 +42,7 @@ header nav ul li a {
     text-decoration: none;
     font-size: 18px; /* Make the font size larger */
     position: relative;
+    padding: 10px 15px;
 }
 
 header nav ul li a:hover {
