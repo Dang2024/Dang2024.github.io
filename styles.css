@@ -143,9 +143,9 @@ header .dropdown:hover .dropdown-content {
 }
 
 .hero-image img {
-    width: 100%; /* Adjusted width to make the image larger */
+    width: 75%; /* Adjusted width to make the image larger */
     height: auto;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 footer {
